@@ -1,0 +1,105 @@
+body{
+    background-color: rgb(37, 37, 42);
+    color: white;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(1, 50, 53);
+    color: white;
+    padding-left: 10px;
+    padding-right: 17px;
+    align-items: center;
+    font-size: small;
+}
+
+.nav-links{
+    display: flex;
+    gap: 10px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 2px;
+    border-radius: 5px;
+    
+}
+
+.nav-links a:hover{
+    color: aquamarine;
+}
+
+.hero img{
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.hero{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 2px solid rgb(1, 50, 53);
+    padding-bottom: 10px;
+}
+
+.hero h1{
+    color: white;
+}
+
+.about{
+    margin-top: 50px;
+    text-align: center;
+    border-bottom: 2px solid rgb(1, 50, 53);
+}
+
+.skills{
+    text-align: center;
+    margin-top: 40px;
+    border-bottom: 2px solid rgb(1, 50, 53);
+}
+
+.skills ul{
+    list-style: none;
+}
+.proj{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.projects{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    border-bottom: 2px solid rgb(1, 50, 53);
+    padding-bottom: 10px;
+}
+
+.work{
+    text-align: center;
+}
+
+
+.footer{
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+}
+
+@media screen and (max-width: 600px){
+    body{
+        margin: 5px;
+    }
+    .projects{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
